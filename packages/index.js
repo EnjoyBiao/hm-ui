@@ -5,12 +5,7 @@ import Dialog from './dialog'
 import Input from './input'
 import Radio from './radio'
 import RadioGroup from './radio-group'
-// import Switch from './switch'
-// import CheckboxGroup from './checkbox-group'
-// import Form from './form'
-// import FormItem from './form-item'
 import './fonts/iconfont.css'
-import './font/iconfont.css'
 const components = [
     Button,
     Dialog,
@@ -23,7 +18,7 @@ const  install = function ( Vue) {
         Vue.component(item.name, item)
     })
     //注册所有的组建
-    console.log('123')
+    // console.log('123')
 }
 // 判断是否直接引入文件，如果是，就不用调用Vue.use();(如果不适用模块化开发，直接scrip标签的形式引入)
 if (typeof window !== 'undefined' && window.Vue) {
