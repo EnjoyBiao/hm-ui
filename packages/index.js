@@ -5,13 +5,15 @@ import Dialog from './dialog'
 import Input from './input'
 import Radio from './radio'
 import RadioGroup from './radio-group'
+import SelectTree from  './selectTree'
 import './fonts/iconfont.css'
 const components = [
     Button,
     Dialog,
     Input,
     Radio,
-    RadioGroup
+    RadioGroup,
+    SelectTree
 ]
 const  install = function ( Vue) {
     components.forEach((item) => {

@@ -1,6 +1,6 @@
 {
   "name": "cb-vue-ui",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": "dist/cb-vue-ui.umd.min.js",
   "private": false,
   "scripts": {
@@ -10,6 +10,7 @@
     "lib": "vue-cli-service build --target lib packages/index.js"
   },
   "dependencies": {
+    "view-design": "^4.3.2",
     "vue": "^2.6.11"
   },
   "devDependencies": {
